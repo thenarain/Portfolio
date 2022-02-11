@@ -1,56 +1,37 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# My-Portfolio
 
-> Description the project.
+> Setup and mobile version skeleton
 
+![screenshot](./Images/Setup-mobile-skeleton.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML/CSS
+- LINTERS
+- VSCODE
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- GITHUB
+- IDE
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- git clone https://github.com/thenarain/Portfolio.git
 
 ## Authors
 
-👤 **Author1**
+👤 **Kartikay Srivastava**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@thenarain](https://github.com/thenarain)
+- Twitter: [@TheNarainKartik](https://twitter.com/TheNarainKartik)
+- LinkedIn: [@kartikay-srivastava](https://www.linkedin.com/in/kartikay-srivastava/)
 
 ## 🤝 Contributing
 
