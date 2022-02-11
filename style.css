@@ -200,3 +200,145 @@
   color: #fff;
   background-color: #2230d2;
 }
+
+
+.about-sec {
+  background-color: #fff;
+  border-top-right-radius: 9vh;
+}
+
+.about-content-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.8vh;
+  padding-right: 2.8vh;
+  padding-top: 12vh;
+}
+
+.about-intro {
+  font-weight: 700;
+  color: #172b4d;
+  font-size: 4.8vh;
+}
+
+.about-description {
+  font-size: 1.9vh;
+  font-weight: 400;
+  color: #344563;
+  margin-top: 1.5vh;
+}
+
+.about-connect {
+  margin: 1.5vh 0;
+}
+
+.about-icon {
+  margin-left: 3vw;
+}
+
+.about-button {
+  color: #396df2;
+  text-decoration: none;
+  padding: 1.5vh;
+  border: 1px solid #607dff;
+  border-radius: 8px;
+  font-size: 2vh;
+  font-weight: 500;
+}
+
+.button-one {
+  margin-top: 3vh;
+}
+
+.about-button:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.about-button:focus {
+  color: #fff;
+  background-color: #2230d2;
+}
+
+.tech-names-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4.5vh;
+  margin-top: 7vh;
+  height: 70vh;
+}
+
+li {
+  list-style: none;
+}
+
+.language-arrow,
+.framework-arrow,
+.skill-arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-angle-down,
+.fa-angle-right {
+  margin-right: 8vh;
+  font-size: 3vh;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4.5vh;
+  margin-top: 4.5vh;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 1.5vh;
+  background-color: #f7f7f9;
+}
+
+.skills > img {
+  padding-left: 1.5vh;
+  padding-top: 1.1vh;
+  padding-bottom: 1.1vh;
+}
+
+.skill-para {
+  padding-left: 2vh;
+  color: #253858;
+  font-size: 4.5vw;
+  font-weight: 500;
+}
+
+.language-arrow h3,
+.framework-arrow h3,
+.skill-arrow h3 {
+  line-height: 2.8vh;
+  font-size: 6vw;
+  font-weight: 500;
+}
+
+.language-arrow {
+  margin-bottom: 4.5vh;
+  margin-top: 3vh;
+}
+
+.framework-arrow {
+  margin-bottom: 3vh;
+  margin-top: 5vw;
+}
+
+.skill-arrow {
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+}
+
+.name-two,
+.name-three {
+  border-bottom: 2px solid #dfe1e6;
+  width: 88%;
+}
