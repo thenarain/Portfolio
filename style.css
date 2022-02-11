@@ -27,7 +27,7 @@
   font-size: 2vh;
 }
 
-nav > .fa-bars {
+.logo-ham > .fa-bars {
   margin-top: 6.3vh;
   margin-right: 4.2vh;
   color: #6070ff;
@@ -36,6 +36,7 @@ nav > .fa-bars {
 .home-page {
   background-image: url("./Images/header-shapes-mobile@2x.png");
   background-repeat: no-repeat;
+  background-size: 100vw;
   background-color: #fff;
   height: 80vh;
   border-bottom-left-radius: 9vh;
@@ -70,6 +71,7 @@ nav > .fa-bars {
   font-size: 2vh;
   color: #7f8cff;
   margin: 1.5vh 2.8vh;
+  text-decoration: none;
 }
 
 .icon-container {
