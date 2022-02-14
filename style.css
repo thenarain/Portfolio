@@ -154,8 +154,9 @@
 }
 
 .tech-stack {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  box-sizing: border-box;
   list-style: none;
   width: 24vh;
 }
@@ -169,6 +170,7 @@
   line-height: 2vh;
   font-weight: 500;
   border: none;
+  float: left;
 }
 
 .card-button {
