@@ -334,3 +334,116 @@ li {
   border-bottom: 2px solid #dfe1e6;
   width: 88%;
 }
+
+/* contact form start */
+
+.card-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #6070ff;
+  border-radius: 86px 0 0;
+  background-image: url("./Images/contact_form_shapes_mobile.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 89vh;
+}
+
+.contact-text {
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5vh;
+  line-height: 6vh;
+  margin-top: 10vh;
+}
+
+.contact-para {
+  color: #ebebff;
+  padding: 1.5vh 2.8vh;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5vh;
+  line-height: 3.5vh;
+  text-align: center;
+}
+
+.form-content {
+  list-style-type: none;
+}
+
+.form-list,
+.form-list1,
+.form-list-textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 5.5vh;
+  width: 35.9vh;
+  margin-top: 5vw;
+  padding-left: 1.9vh;
+}
+
+.form-list-textarea {
+  height: 20vh;
+}
+
+.form-list-textarea::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
+.button1 {
+  color: #6070ff;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.button1:hover {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+  background-color: #6070ff;
+  border-radius: 8px;
+}
+
+.button1:focus {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 16px;
+  background-color: #2230d2;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.button-list {
+  margin-top: 22px;
+}
+
+.form-list::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
+.form-list1::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
+.form-body {
+  background-color: #fff;
+}
