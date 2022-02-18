@@ -512,41 +512,6 @@ li {
     flex-direction: column;
     justify-content: center;
   }
-/* 
-  .intro {
-    font-size: 4.8vh;
-    font-weight: 700;
-    margin-top: 12vh;
-    margin-left: 2.8vh;
-    margin-right: 2.8vh;
-    color: #172b4d;
-  }
-
-  .intro-description {
-    font-size: 16px;
-    font-weight: 400;
-    color: #344563;
-    margin-top: 1.5vh;
-    margin-left: 2.8vh;
-    margin-right: 2.8vh;
-  }
-
-  .bottom-connect {
-    font-weight: 500;
-    font-size: 2vh;
-    color: #7f8cff;
-    margin: 1.5vh 2.8vh;
-    text-decoration: none;
-  }
-
-  .icon-container {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 23vh;
-    margin-left: 2.8vh;
-    color: #505f79;
-  } */
 
   .height {
     margin-top: 18vh;
