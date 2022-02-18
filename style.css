@@ -119,7 +119,7 @@
 .card-element {
   display: flex;
   flex-direction: column;
-  padding: 2vh 2vh 4.5vh 2vh;
+  padding: 2vh 2vh 4.5vh;
 }
 
 .card-content-container {
@@ -543,7 +543,6 @@ li {
     padding-left: 15vw;
   }
 
-
   .intro-description {
     width: 75vw;
     font-size: 2vh;
@@ -577,7 +576,6 @@ li {
     height: 2vh;
     padding-right: inherit;
   }
-
 
   .grid-container {
     display: grid;
