@@ -4,6 +4,14 @@
   display: none;
 }
 
+.desktop-image {
+  display: none;
+}
+
+.rails {
+  display: none;
+}
+
 * {
   font-family: Poppins, sans-serif;
   padding: 0;
@@ -102,6 +110,10 @@
   margin-left: 2.7vh;
   margin-right: 2.7vh;
   margin-bottom: 10vh;
+}
+
+.work-image {
+  width: 100%;
 }
 
 .card-element {
@@ -453,6 +465,13 @@ li {
     display: none;
   }
 
+  .mobile-image {
+    display: none;
+  }
+  .desktop-image, .rails {
+    display: inherit;
+  }
+
   * {
     font-family: Poppins, sans-serif;
     padding: 0;
@@ -554,9 +573,6 @@ li {
     padding-left: 17vw;
   }
   
-  .social-icon {
-  }
-  
   .icon-img {
     width: 2vw;
     height: 2vh;
@@ -569,49 +585,56 @@ li {
     grid-template-rows: repeat(4, auto);
     justify-items: center;
     margin-top: 10vh;
+    gap: 10vh;
   }
 
   .card {
     background-color: #fff;
     border-radius: 2vh;
-    margin-left: 2.7vh;
-    margin-right: 2.7vh;
-    margin-bottom: 10vh;
+    width: 80vw;
+    margin: 0;
+  }
+  .work-image {
+    width: 35vw;
   }
 
   .card-element {
     display: flex;
-    flex-direction: column;
-    padding-left: 2vh;
-    padding-right: 2vh;
-    padding-top: 2vh;
-    padding-bottom: 4.5vh;
+    flex-direction: row;
+    padding: 2vh;
+  }
+
+  .multipost > .card-element {
+    flex-direction: row-reverse;
   }
 
   .card-content-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-left: 4vw;
+    padding-bottom: 5vh;
   }
 
   .card-title {
-    font-size: 4.8vh;
+    font-size: 4vh;
     font-style: normal;
     font-weight: 700;
-    color: #172b4d;
+    color: #091E42;
   }
 
   .card-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 65vw;
-    margin-top: 2.3vh;
-    margin-bottom: 2.3vh;
+    width: 22vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
   }
 
   .para-one {
-    font-size: 1.5vh;
-    font-weight: 600;
+    font-size: 1.6vh;
+    font-weight: 500;
     color: #344563;
   }
 
@@ -621,33 +644,40 @@ li {
   }
 
   .para-two {
-    font-size: 1.5vh;
-    font-weight: 600;
-    color: #7a869a;
+    font-size: 1.6vh;
+    font-weight: 400;
+    color: #6B778C;
   }
 
   .card-body {
-    font-size: 1.9vh;
+    font-size: 1.5vh;
     font-weight: 400;
     color: #344563;
     line-height: 2.8vh;
     margin-bottom: 1.5vh;
+    width: 36vw;
   }
 
   .tech-stack {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 24vh;
+    width: 20vh;
+    align-items: baseline;
+  }
+
+  .facebook {
+    width: 30vh;
   }
 
   .tech-items {
-    padding: 1vw 3vw;
+    padding: 4px 12px;
     background-color: #ebebff;
     color: #6070ff;
-    border-radius: 8px;
-    font-size: 1.5vh;
-    line-height: 2vh;
+    border-radius: 1vh;
+    font-size: 1.1vh;
+    line-height: 1vh;
+    font-style: normal;
     font-weight: 500;
     border: none;
   }
@@ -655,13 +685,12 @@ li {
   .card-button {
     color: #396df2;
     text-decoration: none;
-    padding: 1.4vh;
+    padding: 1vh;
     border: 1px solid #6070ff;
     border-radius: 8px;
-    font-size: 2vh;
+    font-size: 1.5vh;
     font-weight: 500;
-    line-height: 2.8vh;
-    width: 28vw;
+    width: 7vw;
     margin-top: 2vh;
   }
 
@@ -675,6 +704,19 @@ li {
     background-color: #2230d2;
   }
 
+  .blue-button {
+    color: #fff;
+    background: #4053FC;
+    text-decoration: none;
+    padding: 1vh;
+    border: 1px solid #7F8CFF;
+    border-radius: 8px;
+    font-size: 1.5vh;
+    font-weight: 500;
+    width: 7vw;
+    margin-top: 2vh;
+  }
+/* 
   .about-sec {
     background-color: #fff;
     border-top-right-radius: 9vh;
@@ -814,7 +856,7 @@ li {
   .name-three {
     border-bottom: 2px solid #dfe1e6;
     width: 88%;
-  }
+  } */
 
   /* contact form start */
 
@@ -918,6 +960,6 @@ li {
 
   .form-body {
     background-color: #fff;
-  }
+  } */
 
 }
