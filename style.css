@@ -456,7 +456,7 @@ li {
 
 /* Desktop */
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1024px) {
   .nav-mobile {
     display: none;
   }
@@ -572,8 +572,6 @@ li {
   }
 
   .icon-img {
-    width: 2vw;
-    height: 2vh;
     padding-right: inherit;
   }
 
@@ -690,6 +688,7 @@ li {
     font-weight: 500;
     width: 8vw;
     margin-top: 2vh;
+    text-align: center;
   }
 
   .card-button:hover {
@@ -700,19 +699,6 @@ li {
   .card-button:focus {
     color: #fff;
     background-color: #2230d2;
-  }
-
-  .blue-button {
-    color: #fff;
-    background: #4053fc;
-    text-decoration: none;
-    padding: 1vh;
-    border: 1px solid #7f8cff;
-    border-radius: 8px;
-    font-size: 1.5vh;
-    font-weight: 500;
-    width: 7vw;
-    margin-top: 2vh;
   }
 
   .about-sec {
@@ -871,7 +857,6 @@ li {
     padding-left: 0;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    height: 5vh;
     width: 5vw;
   }
 
