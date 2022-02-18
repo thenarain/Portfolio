@@ -555,15 +555,15 @@ li {
     margin-bottom: 1vh;
     padding-left: 15vw;
   }
-  
+
   .bottom-connect {
-    width: 60vw;
     font-weight: 500;
     font-style: normal;
     font-size: 1.5vh;
     color: #7f8cff;
     margin-top: 1vh;
     padding-left: 15vw;
+    width: 10vw;
   }
   
   .icon-container {
@@ -691,7 +691,7 @@ li {
     border-radius: 8px;
     font-size: 1.5vh;
     font-weight: 500;
-    width: 7vw;
+    width: 8vw;
     margin-top: 2vh;
   }
 
@@ -724,6 +724,7 @@ li {
     background-color: #fff;
     border-top-right-radius: 9vh;
     margin-top: 10vh;
+    height: 60vh;
   }
 
   .about-content-container {
@@ -752,6 +753,16 @@ li {
 
   .bottom-connect {
     padding: 0;
+  }
+
+  .home-connect {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5vh;
+    color: #7f8cff;
+    margin-top: 1vh;
+    padding-left: 15vw;
+    width: 10vw;
   }
 
   .about-button {
@@ -792,6 +803,7 @@ li {
     flex-direction: column;
     width: 40vw;
     margin: 0;
+    height: auto;
   }
 
   .tech-names-list h3 {
@@ -871,23 +883,20 @@ li {
 
   /* contact form start */
 
-  /* .card-contact {
+  .card-contact {
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #6070ff;
-    border-radius: 86px 0 0;
-    background-image: url("./Images/contact_form_shapes_mobile.png");
+    background-image: url("./Images/contact_form.svg");
     background-repeat: no-repeat;
-    background-position: right;
-    height: 97vh;
+    background-size: 100vw auto;
   }
-
   .contact-text {
     color: #fff;
     font-style: normal;
     font-weight: bold;
-    font-size: 5vh;
+    font-size: 3.5vh;
     line-height: 6vh;
     padding-top: 15vh;
     padding-bottom: 1.5vh;
@@ -895,18 +904,15 @@ li {
 
   .contact-para {
     color: #ebebff;
-    padding-right: 2.8vh;
-    padding-left: 2.8vh;
-    padding-bottom: 5vh;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 3vh;
     font-style: normal;
     font-weight: normal;
-    font-size: 2.5vh;
+    font-size: 1.8vh;
     line-height: 3.5vh;
     text-align: center;
-  }
-
-  .form-content {
-    list-style-type: none;
+    width: 40vw;
   }
 
   .form-list,
@@ -914,64 +920,15 @@ li {
   .form-list-textarea {
     background: #fff;
     border: 1px solid #cfd8dc;
-    border-radius: 8px;
+    border-radius: 0;
     padding: 1.6vh;
-    width: 35.9vh;
-    margin-bottom: 5vw;
+    width: 32vw;
+    margin-bottom: 3vh;
   }
 
-  .form-list-textarea {
-    height: 20vh;
-    margin-bottom: 0;
+  li.button-list {
+    margin-top: 0;
+    margin-left: 10vw;
   }
 
-  .form-list1::placeholder {
-    padding-top: 1.6vh;
-  }
-
-  .button1 {
-    color: #6070ff;
-    background-color: #fff;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    padding: 12px 16px;
-  }
-
-  .button1:hover {
-    color: #fff;
-    text-decoration: none;
-    padding: 12px 16px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
-    background-color: #6070ff;
-    border-radius: 8px;
-  }
-
-  .button1:focus {
-    color: #fff;
-    text-decoration: none;
-    padding: 12px 16px;
-    background-color: #2230d2;
-    border-radius: 8px;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24px;
-  }
-
-  .button-list {
-    margin-top: 22px;
-  }
-
-  .form-body {
-    background-color: #fff;
-  } */
-
-} */
 }
