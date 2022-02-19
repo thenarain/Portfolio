@@ -592,6 +592,11 @@ li {
 
   .work-image {
     width: 35vw;
+    transition: all 1s;
+  }
+
+  .work-image:hover {
+    transform: scale(1.1);
   }
 
   .card-element {
@@ -880,6 +885,19 @@ li {
     line-height: 6vh;
     padding-top: 15vh;
     padding-bottom: 1.5vh;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-right: 0%;
+    }
+
+    to {
+      margin-right: 5%;
+    }
   }
 
   .contact-para {
