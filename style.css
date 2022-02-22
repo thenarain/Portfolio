@@ -24,6 +24,7 @@
 
 .head-menu {
   background-color: #fff;
+  width: 100%;
 }
 
 .nav-mobile {
@@ -50,24 +51,27 @@
 .home-page {
   background-image: url("./Images/header-shapes-mobile@2x.png");
   background-repeat: no-repeat;
-  background-size: 100vw;
+  /* background-size: 100vw; */
+  background-size: 100% 100%;
   background-color: #fff;
-  height: 80vh;
+  /* height: 80vh; */
   border-bottom-left-radius: 9vh;
+  padding: 100px 24px 100px 24px;
 }
 
 .home-page-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0;
 }
 
 .intro {
   font-size: 4.8vh;
   font-weight: 700;
-  margin-top: 12vh;
+  /* margin-top: 12vh;
   margin-left: 2.8vh;
-  margin-right: 2.8vh;
+  margin-right: 2.8vh; */
   color: #172b4d;
 }
 
@@ -76,15 +80,16 @@
   font-weight: 400;
   color: #344563;
   margin-top: 1.5vh;
-  margin-left: 2.8vh;
-  margin-right: 2.8vh;
+  /* margin-left: 2.8vh;
+  margin-right: 2.8vh; */
 }
 
 .bottom-connect {
   font-weight: 500;
   font-size: 2vh;
   color: #7f8cff;
-  margin: 1.5vh 2.8vh;
+  /* margin: 1.5vh 2.8vh; */
+  margin: 1.5vh 0 1.5vh 0;
   text-decoration: none;
 }
 
@@ -210,6 +215,7 @@
 }
 
 .about-sec {
+  padding-bottom: 140px;
   background-color: #fff;
   border-top-right-radius: 9vh;
 }
@@ -361,7 +367,8 @@ li {
   background-image: url("./Images/contact_form_shapes_mobile.png");
   background-repeat: no-repeat;
   background-position: right;
-  height: 97vh;
+  /* height: 97vh; */
+  padding-bottom: 140px;
 }
 
 .contact-text {
@@ -518,10 +525,12 @@ li {
   .home-page {
     background-image: url("./Images/home-page.svg");
     background-repeat: no-repeat;
-    background-size: 100vw;
+    /* background-size: 100vw; */
+    background-size: 100% 100%; 
     background-color: #fff;
-    height: 75vh;
+    /* height: 75vh; */
     border-bottom-left-radius: 10vh;
+    padding: 230px 260px 255px 260px;
   }
 
   .home-page-wrapper {
@@ -531,26 +540,26 @@ li {
   }
 
   .height {
-    margin-top: 18vh;
+    /* margin-top: 18vh; */
   }
 
   .intro {
-    width: 35vw;
+    /* width: 35vw; */
     font-size: 5vh;
     line-height: 7vh;
     font-weight: 700;
     color: #091e42;
-    padding-left: 15vw;
+    /* padding-left: 15vw; */
   }
 
   .intro-description {
-    width: 75vw;
+    /* width: 75vw; */
     font-size: 2vh;
     font-weight: 400;
     color: #344563;
     margin-top: 1vh;
-    margin-bottom: 1vh;
-    padding-left: 15vw;
+    /* margin-bottom: 1vh; */
+    /* padding-left: 15vw; */
   }
 
   .bottom-connect {
@@ -560,7 +569,7 @@ li {
     color: #7f8cff;
     margin-top: 1vh;
     padding: 0;
-    width: 10vw;
+    /* width: 10vw; */
   }
 
   .icon-container {
@@ -568,7 +577,7 @@ li {
     list-style: none;
     color: #505f79;
     margin: 0;
-    padding-left: 17vw;
+    /* padding-left: 17vw; */
   }
 
   .icon-img {
@@ -712,7 +721,7 @@ li {
     background-color: #fff;
     border-top-right-radius: 9vh;
     margin-top: 10vh;
-    height: 60vh;
+    /* height: 60vh; */
   }
 
   .about-content-container {
@@ -745,8 +754,8 @@ li {
     font-size: 1.5vh;
     color: #7f8cff;
     margin-top: 1vh;
-    padding-left: 15vw;
-    width: 10vw;
+    /* padding-left: 15vw; */
+    /* width: 10vw; */
   }
 
   .about-button {
