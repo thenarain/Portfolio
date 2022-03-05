@@ -5,7 +5,6 @@ const logo = document.querySelector('.logo');
 const navBar = document.querySelector('.nav-bar');
 openMenu.addEventListener('click', show);
 
-
 function show() {
     closeMenu.classList.toggle('hidden')
     navBar.classList.add('show');
