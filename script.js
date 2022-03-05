@@ -4,7 +4,6 @@ const closeMenu = document.querySelector('.close-menu');
 const logo = document.querySelector('.logo');
 const navBar = document.querySelector('.nav-bar');
 
-
 function show() {
   closeMenu.classList.toggle('hidden');
   navBar.classList.add('show');
