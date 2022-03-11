@@ -50,14 +50,14 @@
   position: absolute;
   background-color: #6070FF;
   mix-blend-mode: multiply;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
 }
 
 .main-menu {
   display: flex;
   gap: 2em;
   flex-direction: column;
-  padding: 24px;
+  padding: 50px;
   color: #fff;
   font-weight: 500;
   list-style: none;
